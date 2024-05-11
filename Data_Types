@@ -1,3 +1,4 @@
+Example1:
 first ="Alexa"
 last ="hey"
 print(type(first))
@@ -8,3 +9,236 @@ output:
 <class 'str'>
 True
 True
+
+
+Example2:
+
+pizza= str("pepperoni")
+print(type(pizza))
+print(type(pizza)==str)
+print(isinstance(pizza,str))
+
+output:
+<class 'str'>
+True
+True
+
+-------------------------------------------------------------------------------------------------------CONCATENATION------------------------------------------------------------------------------------------------
+Example1:
+first ="Alexa"
+last ="Hey"
+full_name = first + " " +last
+print(full_name)
+
+Output:
+Alexa Hey
+
+Example2:
+
+first ="Alexa"
+last ="Hey"
+full_name = first + " " +last
+print(full_name)
+full_name += "!!!"
+print(full_name)
+
+Output:
+Alexa Hey
+Alexa Hey!!!
+
+--------------------------------------------------------------------------------------------------------CASTING A NUMBER TO STRING----------------------------------------------------------------------------------
+Example 1:
+decade =str(2024)
+print(decade)
+print(type(decade))
+
+Output:
+2024
+<class 'str'>
+
+Example2:
+full_name = first + " " +last
+print(full_name)
+full_name += "!!!"
+print(full_name)
+
+decade =str(2024)
+print(decade)
+print(type(decade))
+
+statement ="This is a " + decade + "year."
+print(statement)
+
+Output:
+Alexa Hey
+Alexa Hey!!!
+2024
+<class 'str'>
+This is a 2024year.
+
+-------------------------------------------------------------------------------------------------MULTILINE ---------------------------------------------------------------------------------------------------------
+
+Example1:
+multiline='''
+hello heyy pythonn
+
+
+i was just checking in
+
+All good?
+
+
+
+'''
+print(multiline)
+
+Output:
+hello heyy pythonn
+
+
+i was just checking in
+
+All good?
+------------------------------------------------------------------------------------------------
+Example 1:
+sentances ='I\'m back\t with\n \n gifts!'
+print(sentances)
+
+Output:
+I'm back         with
+ 
+ gifts!
+
+---------------------------------------------------------------------------UPPER AND LOWER CASE---------------------------------------------------------------
+Example1 :
+first = 'Alexa'
+last ='Hey'
+print(first)
+print(first.lower())
+print(first.upper())
+
+Output:
+Alexa
+alexa
+ALEXA
+
+
+------------------------------------------------------------------------REPLACE ----------------------------------
+Example 1:
+
+multiline='''
+hello heyy pythonn
+
+
+i was just checking in
+
+All good?
+
+
+
+'''
+print(multiline)
+print(multiline.replace("good","ok"))
+
+Output:
+hello heyy pythonn
+
+
+i was just checking in
+
+All good?
+
+
+
+
+
+hello heyy pythonn
+
+
+i was just checking in
+
+All ok?
+
+-----------------------------------------------TITLE---------------------------
+Example 1:
+multiline='''
+hello heyy pythonn
+
+
+i was just checking in
+
+All good?
+
+
+
+'''
+print(multiline)
+print(multiline.title())
+print(multiline.replace("good","ok"))
+
+Output:
+hello heyy pythonn
+
+
+i was just checking in
+
+All good?
+
+
+
+
+
+Hello Heyy Pythonn
+
+
+I Was Just Checking In
+
+All Good?
+
+
+
+
+
+hello heyy pythonn
+
+
+i was just checking in
+
+All ok?
+----------------------------------------------------------------------------------------------------
+LEN : length
+Example 1:
+multiline='''
+hello heyy pythonn
+i was just checking in
+All good?
+'''
+print(multiline.title())
+print(multiline.replace("good","ok"))
+print(len(multiline))
+multiline+="    -----------------"
+multiline="          ^^^^^^ "+multiline
+print(len(multiline))
+ 
+Output:
+Hello Heyy Pythonn
+I Was Just Checking In
+All Good?
+
+
+hello heyy pythonn
+i was just checking in
+All ok?
+
+53
+91
+
+
+
+
+
+
+
+
+
+

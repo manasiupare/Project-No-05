@@ -1,0 +1,10 @@
+first ="Alexa"
+last ="hey"
+print(type(first))
+print(type(first)==str)
+print(isinstance(first,str))
+
+output:
+<class 'str'>
+True
+True
